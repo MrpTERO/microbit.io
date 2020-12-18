@@ -1,0 +1,290 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Jekyll v4.0.1">
+    <link rel=" icon" href="../favicon.ico">
+    
+    <title>BBC micro:bit</title>
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css">
+    <link rel="canonical" href="https://getbootstrap.com/docs/4.5/examples/jumbotron/">
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+
+
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+      .blog-footer {
+      padding: 2.5rem 0;
+      color: #999;
+      text-align: center;
+      background-color: #800000;
+      border-top: .05rem solid #e5e5e5;
+      height: 420px;
+      }
+      
+      
+    </style>
+    <script>
+jQuery(function($){
+$('a[href*="#"]').on('click.smoothscroll', function( e ){
+var hash    = this.hash, _hash   = hash.replace(/#/,''), theHref = $(this).attr('href').replace(/#.*/, '');
+if( theHref && location.href.replace(/#.*/,'') != theHref ) return;
+var $target = _hash === '' ? $('body') : $( hash + ', a[name="'+ _hash +'"]').first();
+if( ! $target.length ) return;
+e.preventDefault();
+$('html, body').stop().animate({ scrollTop: $target.offset().top - 0 }, 400, 'swing', function(){
+window.location.hash = hash;
+});
+});
+});
+</script>
+    <!-- Custom styles for this template -->
+    <link href="jumbotron.css" rel="stylesheet">
+  </head>
+  <body  class="container">
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+  <a class="navbar-brand" href="#"><img style="height: 30px;" src="img/1.jpg">Nothing</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+    
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="#home">Главная</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a a class="nav-link dropdown-toggle" href="" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Инфо</a>
+        <div class="dropdown-menu" aria-labelledby="dropdown01">
+          <a class="dropdown-item" href="#maininfo">О проекте</a>
+          <a class="dropdown-item" href="#vid">Внешний вид</a>
+          <a class="dropdown-item" href="#posible">Возможности</a>
+          <a class="dropdown-item" href="#program">Программировние</a>
+          <a class="dropdown-item" href="#links">Ссылки</a>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#form">Связаться с нами</a>
+      </li>
+      
+    </ul>
+    
+  </div>
+</nav>
+
+<main id="home" role="main">
+
+  <!-- Main jumbotron for a primary marketing message or call to action -->
+  <div class="jumbotron">
+    <div>
+      <h1 class="display-3">Micro:bit</h1>
+      <p>Micro:bit - одноплатный компьютер, разработанный по инициативе корпорации BBC совместно с крупными технологическими компаниями, сообществами и образовательными организациями для предоставления детям интересного способа изучения программирования и стимулирования технического творчества.</p>
+      <p><a class="btn btn-primary btn-lg" href="#maininfo" role="button">Узнать больше &raquo;</a></p>
+    </div>
+    <section>
+      <div style="text-align: center;">
+        <img src="img/bit1.png">
+      </div>
+    </section>
+  </div>
+
+
+  
+  
+
+  <div id="maininfo" class="container">
+    <div class="album py-5 bg-light">
+      <h2  style="text-align: center;" class="section-title" >Немного о проекте</h2>
+      <hr>
+    <div  class="row">
+      <div  class="col-md-4">
+          <div class="card mb-4 shadow-sm">
+            <img src="img/bbc.jpg" style="height: 200px; border: 1px solid lightgray">
+            <div class="card-body">
+              <p class="card-text"><ul><li>Проект Би-би-си включал бесплатную раздачу микро:бит всем британским школьникам 7-ого года обучения (11-12 лет).</li>
+
+              <li>Поступление микро:бит в школы началось в 2016 г., британским школьникам передан 1 миллион плат.
+              </li>
+
+              <li>По состоянию на октябрь 2018 г., микро:бит распространён в 50 странах мира общим числом 2 миллиона экземпляров.</li></ul></p>
+              
+            </div>
+          </div>
+        </div>
+      
+    </div>
+    <div id="vid" class="row">
+      <div  class="col-md-12">
+          <div class="card mb-4 shadow-sm">
+            <div class="card-body">
+              <h3 style="text-align: center;" class="card-text">Внешний вид micro:bit</h3>
+              <hr>
+              <img style="width: 1000px;" src="img/micro.png" ">
+            </div>
+            
+            
+          </div>
+        </div>
+      
+    </div>
+    <div id="posible" class="row">
+      <div  class="col-md-12">
+          <div class="card mb-4 shadow-sm">
+            <div class="card-body">
+              <h3 style="text-align: center;" class="card-text">Возможности</h3>
+              <hr>
+            </div>
+            
+            <div>
+              <p ><img src="img/bit2.gif" style="width: 500px; float: left; margin: 30px 15px 0px 10px;"><li style="margin:10px;">Обучающий микрокомпьютер BBC micro:bit разработан как оптимальная платформа для STEM-образования в школах и научно-технических кружках. Он не пытается охватить всё и сразу, а помогает пользователям любого уровня быстро освоить базовые навыки работы с железом и программированием.
+              <br><br> На борту micro:bit уже находятся две программируемые кнопки, «экран» в виде матрицы из красных 25 светодиодов, датчики ускорения и температуры. Это позволяет начинающему разработчику быстро реализовать простенький гаджет или приступить к учебному курсу, ведь всё необходимое уже под рукой.</li><br>
+              <li style="margin:10px;">Оригинальный форм-фактор и встроенные возможности BBC micro:bit не дают ребёнку заскучать на протяжении всего процесса, пока он разбирается с принципом работы девайса и делает первые шаги в программировании. Например, встроенные кнопки превращают micro:bit в портативное игровое устройство с возможностью питания от батареек.
+                <br><br>
+              Плата умеет обмениваться данными по Bluetooth со смартфонами и планшетами на базе Android и iOS. Результаты работы программы — например, показания встроенных датчиков — можно мгновенно вывести на светодиодную матрицу или наблюдать в мобильном приложении.</li><br>
+            <li style="margin:10px;">Несмотря на то, что платформа BBC micro:bit ориентирована на школьный курс информатики, она подходит для создания проектов разного уровня сложности. На базе «Микробита» можно собрать и умные часы с фитнес-трекером, и мобильного робота на колёсной платформе, возможно и робота, который будет уничтожать всё на своём пути — благо, для расширения возможностей micro:bit существует немало модулей.</li></p>
+            </div>
+            
+          </div>
+        </div>
+      
+    </div>
+    <div id="program"  class="row">
+      <div  class="col-md-12">
+          <div class="card mb-4 shadow-sm">
+            <div class="card-body">
+              <h3 style="text-align: center;" class="card-text">Программирование micro:bit</h3>
+              <hr>
+              <p style="margin:10px;"><img style="float: right; height: 500px; width: 500px; margin: 30px 15px 0px 10px;" src="img/bit3.jpg"><li style="margin: 5px;">Среда визуального программирования Microsoft MakeCode for micro:bit разработана компанией Microsoft<br><br>
+
+MakeCode - это веб-приложение, позволяющее создавать программы для микро:бит онлайн.<br><br>
+
+MakeCode можно также использовать офлайн, установив приложение в операционной системе Windows или Mac OS. По состоянию на март 2020 г. офлайн-приложение находилось в стадии разработки и распространялось как предрелизная версия.
+<br><br>
+Среда MakeCode для микро:бит содержит эмулятор микро:бит, что позволяет тестировать программу для микро:бит без физического устройства.<br><br>
+
+Наряду с визуальным программированием блоками, среда MakeCode позволяет программировать на текстовых языках JavaScript и Python.</li><br>
+            <li style="margin: 5px;">На сайте <a href="https://microbit.org/">microbit.org</a> есть онлайн редактор Python для микро:бит.</li><br>
+            <li style="margin: 5px;"><a href="https://microbit.org/">microbit.org</a> ссылается на ряд других возможностей программирования для микро:бит: приложения для мобильных устройств, среда Скретч и так далее.</li></p>
+            </div>
+          </div>
+        </div>
+      
+     </div>
+     <div id="links" class="row">
+      <div  class="col-md-4">
+          <div class="card mb-4 shadow-sm">
+            <div class="card-body">
+              <h3 style="text-align: center; background-color: brown" class="card-text">Полезные ссылки</h3>
+              <hr>
+              <ul>
+              <li><a href="https://microbit.org/">microbit.org</a></li>
+              <li><a href="https://habr.com/ru/post/405029/">https://habr.com/ru/post/405029/</a></li>
+              <li><a href="https://ru.wikipedia.org/wiki/%D0%9C%D0%B8%D0%BA%D1%80%D0%BE:%D0%B1%D0%B8%D1%82">https://ru.wikipedia.org/wiki/%D0%9C%D0%B8%D0%BA%D1%80%D0%BE:%D0%B1%D0%B8%D1%82</a></li>
+            </ul>
+            </div>
+
+          </div>
+        </div>
+      
+    </div>
+    <div  id="form" class="row">
+      <div  class="col-md-6">
+          <div class="card mb-4 shadow-sm">
+    <div class="card-body">
+              <h3 style="text-align: center;" class="card-text">Связаться с нами</h3>
+              <hr>
+    <form style="width: 500px; padding: 5px;" class="needs-validation" novalidate>
+  
+  <div class="form-row">
+    <div class="col-md-6 mb-3">
+      <label for="validationCustom03">Э-почта</label>
+      <input type="email" class="form-control" id="validationCustom03" required>
+      <div class="valid-feedback">
+        Отлично!
+      </div>
+      <div class="invalid-feedback">
+        Введите правильную э-почту.
+      </div>
+    </div>
+    <div class="form-group">
+     <label for="validationCustom01">Ваше сообщение</label>
+      <textarea style="width: 400px;" class="form-control" id="validationCustom01" rows="4" required></textarea>
+        <div class="valid-feedback">
+          Отлично!
+        </div>
+        <div class="invalid-feedback">
+          Введите ваше сообщение
+        </div>
+    </div>
+    
+  </div>
+  
+  <button class="btn btn-primary" type="submit">Submit form</button>
+</form>
+</div>
+</div>
+</div>
+
+<script>
+// Example starter JavaScript for disabling form submissions if there are invalid fields
+(function() {
+  'use strict';
+  window.addEventListener('load', function() {
+    // Fetch all the forms we want to apply custom Bootstrap validation styles to
+    var forms = document.getElementsByClassName('needs-validation');
+    // Loop over them and prevent submission
+    var validation = Array.prototype.filter.call(forms, function(form) {
+      form.addEventListener('submit', function(event) {
+        if (form.checkValidity() === false) {
+          event.preventDefault();
+          event.stopPropagation();
+        }
+        form.classList.add('was-validated');
+      }, false);
+    });
+  }, false);
+})();
+</script>
+    </div>
+  </div>
+    
+    
+
+  </div> <!-- /container -->
+
+</main>
+
+<footer class="blog-footer">
+  
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6071.0485282222535!2d19.056304718613273!3d74.37283849278869!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x45bdf1b514503225%3A0x4b35f566d6e32f94!2z0JPQu9Cw0LLQvdGL0Lkg0YbQtdC90YLRgCDQv9C-0YfRgtGLINCg0L7RgdGB0LjQuA!5e1!3m2!1sru!2see!4v1608223398597!5m2!1sru!2see"  height="350" frameborder="0" style="border:0; float: left; margin:10px; width: 400px;" allowfullscreen="" aria-hidden="false"></iframe>
+  <button type="button" class="btn btn-secondary"style="border: 1px solid black; float: right; margin: 20px;  background-color: crimson;">
+    <a href="#"><img style="height: 30px;" src="img/strela.png"></a>
+    
+  </button>
+
+  <p style="position: relative; top: 350px; text-align: center; color: black;">&copy; Random 1632-2020</p>
+  
+</footer>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"  crossorigin="anonymous"></script>
+</body>
+</html>
